@@ -7,6 +7,12 @@ public class Demo {
         System.out.println("aa");
     }
 
+    public void Show(String name,int age)
+    {
+        this.name=name;
+        this.age=age;
+    }
+
     /**
      * 数量
      */
