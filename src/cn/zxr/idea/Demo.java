@@ -4,7 +4,9 @@ public class Demo {
 
     public static  void main(String[] args)
     {
+
         System.out.println("aa");
+        System.out.println("qianjunxian");
     }
 
     public void Show(String name,int age,String grade,int num)
@@ -19,17 +21,26 @@ public class Demo {
      * 数量
      */
 
-    public  int num;
+    private  int num;
     /**
      * 姓名
      */
-    public  String name;
+    private  String name;
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     /**
      * 年龄
      */
-    public int age;
+    private int age;
     /**
      * 班级
      */
-    public String grade;
+    private String grade;
 }
